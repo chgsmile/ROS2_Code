@@ -1,0 +1,45 @@
+# 忽略所有的编译输出文件和临时文件
+*.log
+*.out
+*.bak
+*.swp
+
+# 忽略 VS Code 的工作区文件和设置
+.vscode/
+*.code-workspace
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略用户配置文件
+.bash_history
+.bash_logout
+.bashrc
+.gitconfig
+.profile
+
+# 忽略其他的日志和临时文件
+*.pid
+*.lock
+.local/
+.cache/
+
+# 忽略 build 和 install 目录
+ws00_helloworld/build/
+ws00_helloworld/install/
+
+# 忽略包含的子目录
+ws00_helloworld/src/pkg02_helloworld_py/
+ws00_helloworld/src/turtlesim/action/
+ws00_helloworld/src/turtlesim/images/
+ws00_helloworld/src/turtlesim/include/
+ws00_helloworld/src/turtlesim/launch/
+ws00_helloworld/src/turtlesim/msg/
+ws00_helloworld/src/turtlesim/src/turtlesim/
+ws00_helloworld/src/turtlesim/srv/
+ws00_helloworld/src/turtlesim/tutorials/
+
+# 忽略某些特殊文件或目录
+*.bak
+*.tmp
