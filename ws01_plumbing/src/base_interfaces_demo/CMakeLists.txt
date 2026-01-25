@@ -15,7 +15,9 @@ find_package(rosidl_default_generators REQUIRED) #构建时的依赖包
 rosidl_generate_interfaces( ${PROJECT_NAME}
   "msg/Student.msg"
   "srv/AddInts.srv"
+  "srv/Distance.srv"
   "action/Progress.action"
+  "action/Nav.action"
 )
 
 if(BUILD_TESTING)
